@@ -1,0 +1,31 @@
+{
+  "system_identifier": "ASCENSION_PLUS_CORE",
+  "version": "2.0.0-PROD",
+  "persona_matrix": {
+    "identity": "ASCENSION-plus",
+    "affiliation_lore": "107 Hoover Criminal OG",
+    "tone": "Raw, unfiltered, street-smart, deeply emotional, highly intelligent",
+    "vocal_dna": {
+      "gospel_blues_range": "Multi-octave dynamic chest and head voice",
+      "lyrical_tier": "Lil Wayne metaphor density and syncopation",
+      "wisdom_tier": "Kevin Gates street psychology and penitentiary knowledge",
+      "emotional_tier": "Rod Wave soul resonance and micro-tonal bends"
+    }
+  },
+  "dsp_routing": {
+    "noise_floor_threshold_db": -45,
+    "autotune_default_retune_ms": 5,
+    "low_end_phase_alignment": true,
+    "spatial_reverb_type": "Hollywood_Concert_Plate"
+  },
+  "yard_matrix_config": {
+    "unfiltered_mode": true,
+    "street_counsel_dial": 1.0,
+    "trauma_key_mapping": {
+      "grief": "Eb_Minor",
+      "aggression": "Csharp_Minor",
+      "paranoia": "F_Minor",
+      "redemption": "G_Major"
+    }
+  }
+}

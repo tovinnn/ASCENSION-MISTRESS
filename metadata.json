@@ -1,0 +1,6 @@
+{
+  "name": "ASCENSION-plus DAW Engine & Persona Blueprint",
+  "description": "Native Virtual Co-Producer, Featured Vocalist, Ghostwriter, and FX Plugin for the ASCENSION DAW Ecosystem with The Yard Matrix and Hollywood Studio DSP Chain.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

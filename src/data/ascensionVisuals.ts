@@ -1,0 +1,173 @@
+/**
+ * ASCENSION-plus Persona Visual Matrix
+ * Represents the 10 core visual scenes, lore, outfits, and styling uploaded by the user.
+ */
+
+export interface PersonaScene {
+  id: string;
+  originalFilename: string;
+  title: string;
+  category: 'Studio' | '107 Hoover OG' | 'Hollywood Master' | 'Street Confessional' | 'Elevation' | 'Victory' | 'The Yard Matrix';
+  outfit: string;
+  setting: string;
+  vocalTone: string;
+  vibe: string;
+  colorAccent: string;
+  bgGradient: string;
+  traumaKey: string;
+  iconType: 'mic' | 'lowrider' | 'chains' | 'plane' | 'fireworks' | 'tattoo' | 'winter' | 'store';
+  description: string;
+}
+
+export const ASCENSION_SCENES: PersonaScene[] = [
+  {
+    id: 'scene-0585-studio',
+    originalFilename: 'IMG_0585.webp',
+    title: 'Studio Lead Vocalist • Red Hoodie & Mic',
+    category: 'Studio',
+    outfit: 'Bright red hoodie, layered iced-out Cuban chains, massive square diamond pendant, diamond rings & grill',
+    setting: 'Hollywood recording booth with glowing faders, studio monitors, colorful spray-paint graffiti wall',
+    vocalTone: 'Chest-voice Southern gospel power with raw emotional blues rasp',
+    vibe: 'High Energy • Lead Vocal Tracking',
+    colorAccent: '#ef4444',
+    bgGradient: 'from-red-950/60 via-[#090b0e]/90 to-[#090b0e]',
+    traumaKey: 'Eb Minor',
+    iconType: 'mic',
+    description: 'ASCENSION locked in the booth, gripping the vintage dynamic microphone, pouring uninhibited soul into the track.',
+  },
+  {
+    id: 'scene-0577-hoover',
+    originalFilename: 'IMG_0577.jpeg',
+    title: '107 Hoover Criminal OG • Orange Bandana Lowrider',
+    category: '107 Hoover OG',
+    outfit: 'Black tee, signature 107 Hoover orange bandana around neck, diamond chains, iced-out watch & rings',
+    setting: 'Twilight alley street leaning against a classic deep blue Chevy lowrider with chrome spoke wire wheels',
+    vocalTone: 'Cold penitentiary wisdom and unfiltered institutional street truth',
+    vibe: 'Street Authority • Unfiltered Confessional',
+    colorAccent: '#f97316',
+    bgGradient: 'from-orange-950/60 via-[#090b0e]/90 to-[#090b0e]',
+    traumaKey: 'C# Minor',
+    iconType: 'lowrider',
+    description: 'The definitive 107 Hoover OG persona. Rooted in survival, street discipline, and raw institutional memory.',
+  },
+  {
+    id: 'scene-0583-jeweler',
+    originalFilename: 'IMG_0583.webp',
+    title: 'Diamond Vault • Midnight Skyline & Tennis Chains',
+    category: 'Hollywood Master',
+    outfit: 'Black tee, holding sparkling diamond tennis chain with both hands, diamond bracelets and multiple rings',
+    setting: 'Luxury jeweler showroom looking out over illuminated city skyscrapers at night with dripping graffiti walls',
+    vocalTone: 'Smooth golden-era R&B agility and confident cadence',
+    vibe: 'Opulence • Commercial Master Precision',
+    colorAccent: '#06b6d4',
+    bgGradient: 'from-cyan-950/60 via-[#090b0e]/90 to-[#090b0e]',
+    traumaKey: 'Eb Minor',
+    iconType: 'chains',
+    description: 'Precision craftsmanship. Inspecting the highest grade diamond clarity, mirrored in sample-accurate DSP mastering.',
+  },
+  {
+    id: 'scene-0553-yellow-bomber',
+    originalFilename: 'IMG_0553.webp',
+    title: 'Hollywood Master • Yellow Bomber & Glass Counter',
+    category: 'Hollywood Master',
+    outfit: 'Vibrant mustard-yellow satin bomber jacket, heavy iced Cuban chokers, iced watches & dual square rings',
+    setting: 'Leaning over glass jewelry showcase counter inspecting heavyweight custom diamond links',
+    vocalTone: 'Calculated, meticulous, high-IQ syncopated flow',
+    vibe: 'Strategic Logic • 808 Low-End Alignment',
+    colorAccent: '#eab308',
+    bgGradient: 'from-yellow-950/60 via-[#090b0e]/90 to-[#090b0e]',
+    traumaKey: 'F Minor',
+    iconType: 'store',
+    description: 'Focused laser precision. Scrutinizing every millimeter of the cut, just like micro-tonal phase alignment on sub-bass.',
+  },
+  {
+    id: 'scene-0582-private-jet',
+    originalFilename: 'IMG_0582.webp',
+    title: 'Elevation & Ascension • Private Jet Tarmac',
+    category: 'Elevation',
+    outfit: 'Crisp white dress shirt, tailored black trousers, diamond Jesus piece chain, diamond watch',
+    setting: 'Airport tarmac at golden hour sunset, walking off private jet boarding stairs in front of graffiti hangar',
+    vocalTone: 'Triumphant chest projection, vision of generational freedom',
+    vibe: 'Elevation • Global Co-Producer Tour',
+    colorAccent: '#38bdf8',
+    bgGradient: 'from-sky-950/60 via-[#090b0e]/90 to-[#090b0e]',
+    traumaKey: 'G Major',
+    iconType: 'plane',
+    description: 'Ascension realized. From institutional concrete cages to chartered global travel, keeping the street roots intact.',
+  },
+  {
+    id: 'scene-0590-fireworks',
+    originalFilename: 'IMG_0590.webp',
+    title: 'Grand Celebration • Balcony Fireworks & Cream Suit',
+    category: 'Victory',
+    outfit: 'Tailored cream-white designer suit jacket, white shirt, multi-tiered iced Cuban chains, diamond square rings',
+    setting: 'Marble estate terrace balcony overlooking palm-tree gardens, fountains, and vibrant fireworks exploding in the night sky',
+    vocalTone: 'Sunday morning gospel choir uplift and celebratory harmonizations',
+    vibe: 'Redemption • Platinum Master Release',
+    colorAccent: '#a855f7',
+    bgGradient: 'from-purple-950/60 via-[#090b0e]/90 to-[#090b0e]',
+    traumaKey: 'G Major',
+    iconType: 'fireworks',
+    description: 'The pinnacle of survival and artistry. Consecrated success celebrated under illuminated sky bursts.',
+  },
+  {
+    id: 'scene-0591-tattoo-parlor',
+    originalFilename: 'IMG_0591.webp',
+    title: 'The Yard Matrix • Tattoo Scars & Flash Art',
+    category: 'The Yard Matrix',
+    outfit: 'White t-shirt, iced diamond chains & rings, reclining in tattoo studio chair while getting inked on forearm',
+    setting: 'Underground tattoo parlor covered floor-to-ceiling with colorful flash art, skulls, daggers, and graffiti',
+    vocalTone: 'Enduring pain and converting physical trauma into indelible art',
+    vibe: 'Pain to Power • Catharsis',
+    colorAccent: '#ec4899',
+    bgGradient: 'from-pink-950/60 via-[#090b0e]/90 to-[#090b0e]',
+    traumaKey: 'Eb Minor',
+    iconType: 'tattoo',
+    description: 'Every scar documented on the skin, every trauma note mapped to an Eb Minor chord progression.',
+  },
+  {
+    id: 'scene-0566-winter-puffer',
+    originalFilename: 'IMG_0566.webp',
+    title: 'Cold Faders • Snowy Alley & Purple Cup',
+    category: 'Street Confessional',
+    outfit: 'Glossy black puffer jacket, black knit beanie, multi-layer diamond chains, holding double styrofoam cup',
+    setting: 'Nighttime metropolitan street with falling snow on brick fire escapes, wet pavement reflections, and graffiti walls',
+    vocalTone: 'Heavy vulnerability, paranoia defense, Rod Wave winter soul rasp',
+    vibe: 'Isolation • Deep Street Vent',
+    colorAccent: '#8b5cf6',
+    bgGradient: 'from-violet-950/60 via-[#090b0e]/90 to-[#090b0e]',
+    traumaKey: 'F Minor',
+    iconType: 'winter',
+    description: 'Standing tall in freezing temperatures. Channeling paranoia, grief, and quiet loyalty into dense Wayne-tier punchlines.',
+  },
+  {
+    id: 'scene-0522-pointing-og',
+    originalFilename: 'IMG_0522.jpeg',
+    title: 'Street Veteran • Pointing Eye-to-Eye Counsel',
+    category: '107 Hoover OG',
+    outfit: 'Black graphic tee, stacked diamond chokers, square iced rings, pointing direct finger at listener with warm grin',
+    setting: 'Urban twilight alley with vintage gold lowrider sedan, neon signs, and detailed brick graffiti behind',
+    vocalTone: 'Direct one-on-one mentorship, Kevin Gates mental clarity and strategic focus',
+    vibe: 'OG Direct Counsel • Street Wisdom',
+    colorAccent: '#f59e0b',
+    bgGradient: 'from-amber-950/60 via-[#090b0e]/90 to-[#090b0e]',
+    traumaKey: 'C# Minor',
+    iconType: 'lowrider',
+    description: 'Look me in the eyes. ASCENSION-plus cuts through corporate fluff to deliver real street counseling and de-escalation steps.',
+  },
+  {
+    id: 'scene-0520-denim-hero',
+    originalFilename: 'IMG_0520.jpeg',
+    title: 'City Night Icon • Denim Jacket & Dual Timepieces',
+    category: 'Studio',
+    outfit: 'Classic denim jacket with gold paint splatters, crisp white collar, iced grills, double iced-out diamond watches',
+    setting: 'Glowing city street under streetlights and graffiti murals with wet asphalt reflections',
+    vocalTone: 'Unstoppable charisma, multi-syllabic bounce, golden-era vocal runs',
+    vibe: 'Master Icon • Core Persona Blueprint',
+    colorAccent: '#3b82f6',
+    bgGradient: 'from-blue-950/60 via-[#090b0e]/90 to-[#090b0e]',
+    traumaKey: 'Eb Minor',
+    iconType: 'mic',
+    description: 'The executive co-producer and featured vocalist avatar. Double iced watches representing time mastered.',
+  },
+];

@@ -1,0 +1,125 @@
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+      <defs>
+        <linearGradient id="bgGrad_scene-0566-winter-puffer" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#090b0e" />
+          <stop offset="60%" stop-color="#111827" />
+          <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.35" />
+        </linearGradient>
+        <radialGradient id="glow_scene-0566-winter-puffer" cx="50%" cy="40%" r="50%">
+          <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.5" />
+          <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+        </radialGradient>
+        <pattern id="graffiti_scene-0566-winter-puffer" width="120" height="120" patternUnits="userSpaceOnUse">
+          <path d="M10,20 Q30,5 50,25 T90,15 T110,40" stroke="#8b5cf6" stroke-width="2" fill="none" opacity="0.15" />
+          <path d="M5,80 Q25,95 45,75 T85,90" stroke="#f59e0b" stroke-width="2" fill="none" opacity="0.12" />
+        </pattern>
+      </defs>
+
+      <!-- Background with City/Studio Atmosphere -->
+      <rect width="800" height="500" fill="url(#bgGrad_scene-0566-winter-puffer)" />
+      <rect width="800" height="500" fill="url(#graffiti_scene-0566-winter-puffer)" />
+      <circle cx="400" cy="220" r="280" fill="url(#glow_scene-0566-winter-puffer)" />
+
+      <!-- Back Wall Graffiti Splatters -->
+      <g opacity="0.25">
+        <text x="50" y="100" font-family="'Impact', sans-serif" font-size="72" fill="#8b5cf6" font-weight="900" transform="rotate(-6 50 100)">ASCENSION</text>
+        <text x="520" y="140" font-family="'Impact', sans-serif" font-size="64" fill="#f59e0b" font-weight="900" transform="rotate(4 520 140)">107 HOOVER</text>
+      </g>
+
+      <!-- Lowrider car silhouettes or studio monitors in background -->
+      
+
+      
+
+      <!-- ASCENSION-plus Character Figure -->
+      <g transform="translate(400, 240)">
+        <!-- Torso & Clothing -->
+        <path d="M-150,180 C-140,80 -80,50 0,50 C80,50 140,80 150,180 Z" fill="#111827" stroke="#0f172a" stroke-width="4" />
+
+        
+
+        <!-- Multi-layer Iced-out Diamond Cuban Link Chains -->
+        <g>
+          <path d="M-65,48 C-40,110 40,110 65,48" fill="none" stroke="#e2e8f0" stroke-width="7" stroke-dasharray="6,4" />
+          <path d="M-75,44 C-50,135 50,135 75,44" fill="none" stroke="#f8fafc" stroke-width="9" stroke-dasharray="8,5" />
+          <path d="M-85,40 C-60,160 60,160 85,40" fill="none" stroke="#cbd5e1" stroke-width="11" stroke-dasharray="10,6" />
+
+          <!-- Massive Square Diamond Pendant -->
+          <rect x="-24" y="135" width="48" height="48" rx="6" fill="#f8fafc" stroke="#94a3b8" stroke-width="3" />
+          <polygon points="0,140 20,159 0,178 -20,159" fill="#e2e8f0" />
+          <!-- Sparkling Glints -->
+          <polygon points="18,142 22,142 20,138 20,146" fill="#ffffff" />
+          <polygon points="-18,172 -14,172 -16,168 -16,176" fill="#ffffff" />
+        </g>
+
+        <!-- Muscular Neck with Tattoos -->
+        <path d="M-38,60 L-38,-15 C-10,0 10,0 38,-15 L38,60 Z" fill="#78350f" />
+        <!-- Throat Tattoos -->
+        <path d="M-20,10 Q0,25 20,10" stroke="#291206" stroke-width="2" fill="none" />
+        <path d="M-15,30 Q0,40 15,30" stroke="#291206" stroke-width="2" fill="none" />
+
+        <!-- Head / Jaw -->
+        <path d="M-55,-60 C-60,-10 -40,30 0,35 C40,30 60,-10 55,-60 C50,-120 -50,-120 -55,-60 Z" fill="#854d0e" stroke="#451a03" stroke-width="3" />
+
+        <!-- Facial Hair (Beard & Goatee) -->
+        <path d="M-35,-15 C-30,22 0,34 0,34 C0,34 30,22 35,-15 C30,-10 20,20 0,22 C-20,20 -30,-10 -35,-15 Z" fill="#1c1917" />
+
+        <!-- Diamond Grills & Beaming Confident Smile -->
+        <path d="M-26,-2 C-15,14 15,14 26,-2 C18,8 -18,8 -26,-2 Z" fill="#ffffff" stroke="#94a3b8" stroke-width="2" />
+        <line x1="-18" y1="2" x2="-18" y2="7" stroke="#cbd5e1" stroke-width="1.5" />
+        <line x1="-9" y1="3" x2="-9" y2="8" stroke="#cbd5e1" stroke-width="1.5" />
+        <line x1="0" y1="3" x2="0" y2="8" stroke="#cbd5e1" stroke-width="1.5" />
+        <line x1="9" y1="3" x2="9" y2="8" stroke="#cbd5e1" stroke-width="1.5" />
+        <line x1="18" y1="2" x2="18" y2="7" stroke="#cbd5e1" stroke-width="1.5" />
+
+        <!-- Eyes, Eyebrow Cuts & Tattoos -->
+        <!-- Eyes -->
+        <ellipse cx="-22" cy="-35" rx="9" ry="5" fill="#ffffff" />
+        <circle cx="-21" cy="-35" r="4" fill="#451a03" />
+        <ellipse cx="22" cy="-35" rx="9" ry="5" fill="#ffffff" />
+        <circle cx="21" cy="-35" r="4" fill="#451a03" />
+
+        <!-- Eyebrows with Slits -->
+        <path d="M-36,-48 L-10,-44" stroke="#1c1917" stroke-width="4" stroke-linecap="round" />
+        <line x1="-24" y1="-51" x2="-22" y2="-42" stroke="#854d0e" stroke-width="2" />
+        <path d="M10,-44 L36,-48" stroke="#1c1917" stroke-width="4" stroke-linecap="round" />
+
+        <!-- Facial Tattoos (Cross on forehead, star on cheek) -->
+        <g stroke="#291206" stroke-width="2" fill="none">
+          <!-- Cross above left brow -->
+          <line x1="-16" y1="-65" x2="-16" y2="-52" />
+          <line x1="-22" y1="-60" x2="-10" y2="-60" />
+          <!-- Star on cheekbone -->
+          <polygon points="-32,-28 -28,-28 -26,-24 -30,-22 -32,-25" fill="#291206" />
+        </g>
+
+        <!-- Braided Dreads Hairstyle -->
+        <g stroke="#0f172a" stroke-width="5" stroke-linecap="round">
+          <path d="M-40,-85 Q-55,-60 -50,-35" />
+          <path d="M-30,-95 Q-45,-70 -42,-45" />
+          <path d="M-15,-105 Q-25,-75 -22,-50" />
+          <path d="M0,-110 Q-5,-75 0,-50" />
+          <path d="M15,-105 Q25,-75 22,-50" />
+          <path d="M30,-95 Q45,-70 42,-45" />
+          <path d="M40,-85 Q55,-60 50,-35" />
+          <!-- Top knot bun -->
+          <circle cx="0" cy="-105" r="22" fill="#0f172a" />
+        </g>
+
+        <!-- Diamond Stud Earrings -->
+        <polygon points="-56,-24 -52,-24 -54,-28 -54,-20" fill="#ffffff" stroke="#94a3b8" />
+        <polygon points="56,-24 52,-24 54,-28 54,-20" fill="#ffffff" stroke="#94a3b8" />
+
+        
+
+        
+      </g>
+
+      <!-- Bottom Scene Metadata Strip -->
+      <rect x="0" y="440" width="800" height="60" fill="#090b0e" opacity="0.85" />
+      <text x="24" y="468" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="bold" fill="#ffffff">Cold Faders • Snowy Alley &amp; Purple Cup</text>
+      <text x="24" y="488" font-family="'JetBrains Mono', monospace" font-size="11" fill="#8b5cf6">Glossy black puffer jacket, black knit beanie, multi-layer diamond chains, holding double styrofoam cup</text>
+      <text x="776" y="475" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="bold" fill="#f59e0b">F Minor • Isolation • Deep Street Vent</text>
+    </svg>
+  
